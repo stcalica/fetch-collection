@@ -1,8 +1,9 @@
 # Postman Publish Action - fetch-collection
 
 This repository contains GitHub Actions that help automate publishing Postman Collections to the Public API Network. 
-You can use these actions to fetch a schema or Postman collection, transform an OpenAPI schema into a Postman collection, and update a Postman collection programmatically as part of your CI/CD workflows.
+You can use this actions to fetch a schema or Postman collection.
 
+Find more actions and code here: [https://github.com/stcalica/postman-publish-action](https://github.com/stcalica/postman-publish-action)
 
 ## Actions
 
