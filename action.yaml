@@ -1,0 +1,15 @@
+name: "Fetch Postman Collection"
+description: "Fetches a Postman Collection by its ID."
+inputs:
+  postman_api_key:
+    description: "Your Postman API Key"
+    required: true
+  collection_id:
+    description: "Postman Collection ID"
+    required: true
+outputs: 
+  postman_collection:
+    description: "Fetched Postman Collection"
+runs:
+  using: "node16"
+  main: "index.js"
